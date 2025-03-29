@@ -120,8 +120,8 @@ Os jogos gerados serão:
 
 Os modos estratégicos (opção 4) utilizam análise de frequência para equilibrar:
 
-- Números mais sorteados (top)
-- Números menos sorteados (bottom)
+- Números mais sorteados
+- Números menos sorteados
 - Números aleatórios do meio da distribuição
 - Evitando repetições e combinações ruins
 
