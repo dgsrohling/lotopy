@@ -17,18 +17,20 @@ Este projeto contém dois scripts Python que geram jogos estratégicos para as l
 
 ## 📥 Atualizando os Arquivos CSV com Resultados Oficiais
 
-Antes de rodar os scripts, baixe os arquivos `.csv` com os resultados atualizados das loterias:
+Antes de rodar os scripts, baixe os arquivos `.xlsx` com os resultados atualizados das loterias e converta-os para `.csv`:
 
 ### 🔹 Lotofácil
 - Acesse: [https://asloterias.com.br/download-todos-resultados-lotofacil](https://asloterias.com.br/download-todos-resultados-lotofacil)
 - Clique em **Baixar Resultados**
-- Renomeie o arquivo baixado para `lotofacil_numeros_sorteados.csv`
+- Edite o arquivo .xlsx deixando apenas as colunas com os números
+- Salve o arquivo como `lotofacil_numeros_sorteados.csv`
 - Mova o arquivo para a pasta `data/`
 
 ### 🔹 Mega-Sena
 - Acesse: [https://asloterias.com.br/download-todos-resultados-mega-sena](https://asloterias.com.br/download-todos-resultados-mega-sena)
 - Clique em **Baixar Resultados**
-- Renomeie o arquivo baixado para `mega_sena_numeros_sorteados.csv`
+- Edite o arquivo .xlsx deixando apenas as colunas com os números
+- Salve o arquivo como `mega_sena_numeros_sorteados.csv`
 - Mova o arquivo para a pasta `data/`
 
 ---
