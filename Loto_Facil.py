@@ -3,7 +3,7 @@ import random
 from datetime import datetime
 
 # Carrega o histórico da Lotofácil
-df = pd.read_csv("data/lotofacil_numeros_sorteados.csv", header=None)
+df = pd.read_csv("data/lotofacil_numeros_sorteados.csv", header=None, sep=';')
 sorted_existing = set(tuple(sorted(row)) for row in df.values)
 
 # Frequência dos números sorteados

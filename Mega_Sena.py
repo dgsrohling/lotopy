@@ -3,7 +3,7 @@ import random
 from datetime import datetime
 
 # Carrega histórico da Mega-Sena
-df = pd.read_csv("data/mega_sena_numeros_sorteados.csv", header=None)
+df = pd.read_csv("data/mega_sena_numeros_sorteados.csv", header=None, sep=';')
 sorted_existing = set(tuple(sorted(row)) for row in df.values)
 
 # Frequência dos números
